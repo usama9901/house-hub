@@ -1,0 +1,62 @@
+.signupform {
+  display: flex;
+  // background-image: url("../Images/signup.jpg");
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  height: 100vh;
+}
+.sign{
+  display: flex;
+  flex-direction: column;
+  width:400px;
+  border: 1px solid black;
+  height: fit-content;
+  background-color: white;
+  gap:30px;
+  padding: 3em;
+}
+.signup input{
+  margin:14px 0px 0px;
+  width: 100%;
+  height: 2em;
+  font-size: 18px;
+  border: 2px solid grey;
+  text-indent: 15px;
+  text-indent: 15px;
+}
+.signup input::placeholder
+  {
+    font-size:15px !important;
+    color:grey;
+  }
+.account
+{
+  display: flex;
+  justify-content: space-around;
+  padding: 0 0em 0;
+  color:black;
+  font-size:16px;
+  font-weight:600
+}
+.account button:hover{
+  color:white !important;
+  background-color: #5e23dc !important;
+}
+
+.buttontag1 button
+{
+  width:100%;
+  color:rgb(88, 79, 79);
+  background-color:rgb(205, 205, 205);
+  font-size: 14.5px;
+  font-weight: 600;
+  height:2.8em;
+  cursor: pointer; 
+  border:none;
+}
+.buttontag1 button:hover
+{
+  color: white;
+  background-color: #5e23dc;
+}

@@ -1,0 +1,35 @@
+
+.footerdown
+{
+   
+    display: flex;
+    /* gap:50px; */
+    justify-content: space-between;
+}
+.footerright ul li{
+    list-style-type:none;
+    /* font-weight:600; */
+    cursor: pointer;
+    font-size: 12px;
+}
+.footercenter
+{
+    text-align: center;
+    align-items: center;
+    padding: 1.5em 0em .1em;
+    max-width: 70%;
+}
+.footercenter p
+{
+    text-align: justify;
+    align-items: center;
+}
+.footerleft
+{
+    margin-left: 40px;
+}
+.footerright
+{
+    
+    margin-right: 40px;
+}

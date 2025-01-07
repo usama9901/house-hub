@@ -1,0 +1,66 @@
+.Head
+{
+    position: sticky;
+    top:0;
+    z-index: 1000;
+}
+.Header
+{
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    height: 4em;
+    background-color: #5e23dc;
+}
+.link{
+    color: white ;
+}
+.lefth
+{
+    padding:1em 1.5em .5em;
+    display: flex;
+    gap:10px;
+}
+.righth
+{
+    display: flex;
+    padding:1.5em 1.5em .5em;
+  
+}
+.Icon
+{
+    padding:.1em 0em;
+}
+
+
+
+.link:hover, .righth:hover
+{
+    /* color: black; */
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+    color: white;
+    cursor: pointer;
+}
+
+.buy,.sell,.rent,.help
+{
+    display: flex;
+    padding: 1em 1em;
+    height: 4em;
+
+}
+.Header2
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    box-shadow:0px 2.5px 5px rgba(0, 0, 0, 0.338);
+}
+.buy:hover{color: #5e23dc;cursor:pointer}
+.sell:hover{color: #5e23dc;cursor:pointer}
+.rent:hover{color: #5e23dc;cursor:pointer}
+.help:hover{color: #5e23dc;cursor:pointer}
+
+
+/* @media(max-width:700px) */

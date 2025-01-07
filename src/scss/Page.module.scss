@@ -1,0 +1,22 @@
+.HEADER
+{
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  transform: translateY(0px);
+  height: 66px;
+  font-size: 12.5px;
+  transition: transform 0.2s ease 0s;
+  margin: 0px 55px 15px;
+  border-radius: 0px 0px 25px 25px;
+  width: calc(100vw - 110px);
+  backdrop-filter: blur(10px);
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 3;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.25), transparent) rgb(94, 63, 224);
+}

@@ -1,0 +1,128 @@
+// .new{
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+// /* .ownertop1
+// {
+//   text-align: center;
+// } */
+// .ownertop
+// {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+ 
+//   border-radius: 8px;
+//   width: 75%;
+//   padding: 1.5em;
+//    overflow: hidden; 
+//   border: 2px solid #e01219;
+//   box-shadow: 5px 8px 5px rgba(66, 52, 52, 0.37);
+//   margin: 2em 0.7em;
+// }
+// .ownerleft img
+// {
+//   width:280px;
+//   height:150px;
+//   border-radius: 15px;
+// }
+// /* .owt22
+// {
+//   padding: .1em;
+//   display: flex;
+//   border: 2px solid red;
+//   border-radius: 5px;
+
+// } */
+// .ownertop2
+// {
+//   margin: 1em;
+//   /* padding: .2em; */
+// }
+// .ot2
+// {
+  
+//   padding: 0.2em .2em;
+//   width:100%;
+//   /* height: auto; */
+//   /* margin: 1px; */
+//   /* background-color: rgba(128, 128, 128, 0.111); */
+// }
+// .ownerright
+// {
+//   display: flex;
+//   flex-direction: column;
+//   /* width:100%; */
+//   /* overflow: hidden; */
+// }
+// .ownerright button 
+// {
+//   width: 140px;
+//   border-radius: 15px;
+//   padding: .5em;
+//   margin: .5em;
+// }
+// .bt1{
+//   background-color: #e01219;
+//   border: 1px solid #e01219;
+//   color: white;
+//   cursor: pointer;
+//   font-weight: 600;
+// }
+// .bt2{
+//   background-color: #f6f6f6;
+//   border: 1px solid #e01219;
+//   color: red;
+//   font-weight: 600;
+//   cursor: pointer;
+// }
+
+.MAINOWNER{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: 100vh;
+  background-image: url(../Images/images.jpeg);
+}
+.OWNER
+{
+  border:1px solid grey;
+  border-radius: 10px;
+  width:30em;
+  height:15em;
+  display: flex;
+  overflow:hidden;
+  justify-content: space-around;
+  padding:1em;
+  background-color: #fff;
+}
+.LEFT
+{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+.RIGHT
+{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+.BUTTON button{
+  padding:.5em;
+  border-radius: 3px;
+  background-color:#585f7e;
+}
+.DETAILS
+{
+  width:150px;
+  overflow:initial
+}
+.DETAILS:hover
+{
+  // width:150px;
+  overflow:auto;
+}
